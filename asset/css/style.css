@@ -1,0 +1,75 @@
+body {
+    background-color: #E2DEDE;
+    font-family: 'Segoe UI';
+}
+
+.container .row {
+    padding-top: 10%;
+}
+
+.container .form-control, .btn {
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.container .form-group .form-control {
+    border-radius: 10rem;
+    padding: 1.5rem 1rem;
+}
+
+.container .btn {
+    border-radius: 10rem;
+    padding: 0.5rem 1rem;
+    background-color: #5589E2 !important;
+}
+
+.container .col.miniact {
+    color: #B6A2D9 !important;
+}
+
+/* daftar page */
+.container .title h1 {
+    color: #B6A2D9 !important;
+    padding: 1rem 0;
+}
+/* daftar page */
+
+/* navbar */
+.navbar span.name {
+    font-size: 1.3rem;
+}
+
+.navbar img {
+    width:2.3rem;
+}
+
+.navbar img.icon {
+    width: 4rem;
+}
+
+@media (max-width:40px) {
+    .navbar img.icon {
+        display: none;
+    }
+}
+
+.collapse {
+    background-color: #d0c2e9;
+}
+
+/* navbar */
+
+/* profile */
+.container.profile img {
+    width: 10rem;
+}
+/* profile */
+
+/* footer */
+footer{
+    position: absolute; 
+    bottom:0;
+    right:0; 
+    left:0;
+}
+/* footer */
